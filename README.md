@@ -10,10 +10,12 @@ Pod 'HMEmoticonView'
 ---
 
 lazy var emoticonView: HMEmoticonView? = {
+
     let tv = HMEmoticonView()
     tv.translatesAutoresizingMaskIntoConstraints = false
     tv.items = ["image.png","image.png"]
     return tv
+    
 }()
 
 ---
