@@ -8,15 +8,18 @@ Pod 'HMEmoticonView'
 
 
 ---
+
 lazy var emoticonView: HMEmoticonView? = {
     let tv = HMEmoticonView()
     tv.translatesAutoresizingMaskIntoConstraints = false
     tv.items = ["tongue-out", "tongue-out", "tongue-out","cool", "tongue-out", "wink","cool", "tongue-out", "wink","cool", "tongue-out", "wink","cool", "tongue-out", "wink","cool", "tongue-out", "wink","cool", "tongue-out", "wink","cool", "tongue-out", "wink","cool", "tongue-out", "wink"]
     return tv
 }()
+
 ---
 
 ---
+
 override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -24,4 +27,5 @@ override func viewDidLoad() {
         print(eNumber)
     }
 }
+
 ---
