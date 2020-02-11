@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E24B52A23F20D8E000EB3BA /* HMEmoticonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E24B52923F20D8E000EB3BA /* HMEmoticonCollectionViewCell.swift */; };
+		0E24B52C23F20DF5000EB3BA /* HMAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E24B52B23F20DF5000EB3BA /* HMAssets.xcassets */; };
+		0E2B015A23F21DEC00D430A8 /* HMEmoticonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E24B52723F20D7D000EB3BA /* HMEmoticonCollectionViewCell.xib */; };
+		1EB8E0CC5E9B5B738D60FDA607F0C789 /* Pods-HMEmoticonView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7423A0570FD1AB1DE032B9E2B2076 /* Pods-HMEmoticonView_Tests-dummy.m */; };
+		20697C552B8CBAC97F7D115A3E943E64 /* Pods-HMEmoticonView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8BCEA965BAF30010134ECEF672CFF5 /* Pods-HMEmoticonView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C3A3F9CC30E55CC84CAF7D50C6ED8BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		85CB21E4C900B81BC10DBAE58615978C /* HMEmoticonView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4060110167C012077BEA1D321BAAE3FD /* HMEmoticonView-dummy.m */; };
+		A85379A479DC46692E8829D2278B633C /* Pods-HMEmoticonView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A141853BF00FA7459391ABE014D53D8 /* Pods-HMEmoticonView_Example-dummy.m */; };
+		AD6CD06F4194AC3467154A7D8BF08F17 /* HMEmoticonView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BABB09F2B53BE2289F965B591391A571 /* HMEmoticonView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6BDC7961C6B53B2A9CF72F8BC11EA55 /* Pods-HMEmoticonView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3590D7B7934A2EA780AB23147734F242 /* Pods-HMEmoticonView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D61C164CC395AE4B5E9FC5AAB14BAB61 /* HMEmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157B4FB650523B60DC27DA77AEF5ECE /* HMEmoticonView.swift */; };
+		E7167776E10E6ED3EFB5C92EBC2EE344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F42D5B33D0DE31773FACDF771AFFAF94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67AE9DD23CDDC7246453786D47CCA98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A08BBC306B697FD12F05534F7D3D7C;
+			remoteInfo = HMEmoticonView;
+		};
+		D0A028685DC876CEB947BF2D379265AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490B05075BF3EF2D8B8F7952444E2E06;
+			remoteInfo = "Pods-HMEmoticonView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F53544F1597A100045B638B47384D3 /* Pods_HMEmoticonView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMEmoticonView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E24B52723F20D7D000EB3BA /* HMEmoticonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HMEmoticonCollectionViewCell.xib; sourceTree = "<group>"; };
+		0E24B52923F20D8E000EB3BA /* HMEmoticonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMEmoticonCollectionViewCell.swift; sourceTree = "<group>"; };
+		0E24B52B23F20DF5000EB3BA /* HMAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HMAssets.xcassets; sourceTree = "<group>"; };
+		196630347288C0C76E0B6300C30AB94E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1A318997598CF32A3BAE8DA5FA86D09C /* Pods-HMEmoticonView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMEmoticonView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3590D7B7934A2EA780AB23147734F242 /* Pods-HMEmoticonView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMEmoticonView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4060110167C012077BEA1D321BAAE3FD /* HMEmoticonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMEmoticonView-dummy.m"; sourceTree = "<group>"; };
+		56FFAE803E2E85145A02D9C5E1FFFC3F /* HMEmoticonView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HMEmoticonView-Info.plist"; sourceTree = "<group>"; };
+		620466B70DB2DB2FEFBF39AFE0139138 /* Pods-HMEmoticonView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMEmoticonView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74F901D1D959B2B7452465C6150C5AA2 /* HMEmoticonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMEmoticonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7892CA7463D83867DA577CD15BA76B0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7B24257A2F17EDBF295F2DBFAEF5A3E4 /* Pods-HMEmoticonView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMEmoticonView_Tests-Info.plist"; sourceTree = "<group>"; };
+		86AD224FFDAC234E6A98DDEC2F96F194 /* HMEmoticonView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HMEmoticonView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88A991B73F501C50BD7FA258CA3F45E8 /* Pods_HMEmoticonView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMEmoticonView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A141853BF00FA7459391ABE014D53D8 /* Pods-HMEmoticonView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMEmoticonView_Example-dummy.m"; sourceTree = "<group>"; };
+		8CBA5442E3AC595D6313DE50E12718EB /* Pods-HMEmoticonView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMEmoticonView_Tests.modulemap"; sourceTree = "<group>"; };
+		93273E189256134991594079C9F45A82 /* HMEmoticonView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMEmoticonView-prefix.pch"; sourceTree = "<group>"; };
+		94A997B83F670E8B3B76926556EF5C2A /* Pods-HMEmoticonView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMEmoticonView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C0B8EFAA1CDFF8681D4AC8AC495D358 /* Pods-HMEmoticonView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMEmoticonView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC8BCEA965BAF30010134ECEF672CFF5 /* Pods-HMEmoticonView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMEmoticonView_Example-umbrella.h"; sourceTree = "<group>"; };
+		AD6F99B1AD77991876500B12E6D5E418 /* Pods-HMEmoticonView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMEmoticonView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BABB09F2B53BE2289F965B591391A571 /* HMEmoticonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMEmoticonView-umbrella.h"; sourceTree = "<group>"; };
+		BC62A9248BF763344BC1ACD2940CF456 /* HMEmoticonView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMEmoticonView.xcconfig; sourceTree = "<group>"; };
+		BD61BA501AB72756F05EB9B53516F573 /* HMEmoticonView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMEmoticonView.modulemap; sourceTree = "<group>"; };
+		C33C828E1117CA9C30E0E19626E654D2 /* Pods-HMEmoticonView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMEmoticonView_Example-Info.plist"; sourceTree = "<group>"; };
+		D1D48A919C4DF0E9E414448B461D6A28 /* Pods-HMEmoticonView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMEmoticonView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6D7423A0570FD1AB1DE032B9E2B2076 /* Pods-HMEmoticonView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMEmoticonView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E157B4FB650523B60DC27DA77AEF5ECE /* HMEmoticonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMEmoticonView.swift; path = HMEmoticonView/Classes/HMEmoticonView.swift; sourceTree = "<group>"; };
+		E46627951FACE4BACDBC73CEA2D36C13 /* Pods-HMEmoticonView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMEmoticonView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F5AA88CDAC5E0B62C568EA0AA6951508 /* Pods-HMEmoticonView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMEmoticonView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F8F4841563C60111F1AC61F25B58CA09 /* Pods-HMEmoticonView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMEmoticonView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FD1A786245B7BF24A0708EFB759AAB8E /* Pods-HMEmoticonView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMEmoticonView_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57869EC6D5DD05BCD25A08C2B237D811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7167776E10E6ED3EFB5C92EBC2EE344 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8983CBF1B6B2705184693AEB5FEA53BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42D5B33D0DE31773FACDF771AFFAF94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC0344646DB3A2919FCC4D4B66A92A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3A3F9CC30E55CC84CAF7D50C6ED8BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D60E347F6FD1E4FC2028070BD2744B3 /* Pods-HMEmoticonView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8CBA5442E3AC595D6313DE50E12718EB /* Pods-HMEmoticonView_Tests.modulemap */,
+				9C0B8EFAA1CDFF8681D4AC8AC495D358 /* Pods-HMEmoticonView_Tests-acknowledgements.markdown */,
+				D1D48A919C4DF0E9E414448B461D6A28 /* Pods-HMEmoticonView_Tests-acknowledgements.plist */,
+				D6D7423A0570FD1AB1DE032B9E2B2076 /* Pods-HMEmoticonView_Tests-dummy.m */,
+				7B24257A2F17EDBF295F2DBFAEF5A3E4 /* Pods-HMEmoticonView_Tests-Info.plist */,
+				3590D7B7934A2EA780AB23147734F242 /* Pods-HMEmoticonView_Tests-umbrella.h */,
+				AD6F99B1AD77991876500B12E6D5E418 /* Pods-HMEmoticonView_Tests.debug.xcconfig */,
+				E46627951FACE4BACDBC73CEA2D36C13 /* Pods-HMEmoticonView_Tests.release.xcconfig */,
+			);
+			name = "Pods-HMEmoticonView_Tests";
+			path = "Target Support Files/Pods-HMEmoticonView_Tests";
+			sourceTree = "<group>";
+		};
+		4BFDB225CC7F30B4A5DED92E6AD2551F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				86AD224FFDAC234E6A98DDEC2F96F194 /* HMEmoticonView.podspec */,
+				196630347288C0C76E0B6300C30AB94E /* LICENSE */,
+				7892CA7463D83867DA577CD15BA76B0B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		73DCF811FFC8135411C3C357EBA96434 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8437EEF63F686333AAFC8847E65E0EF /* Pods-HMEmoticonView_Example */,
+				2D60E347F6FD1E4FC2028070BD2744B3 /* Pods-HMEmoticonView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BD29C747E03D840AA36D26F5E66F2C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD61BA501AB72756F05EB9B53516F573 /* HMEmoticonView.modulemap */,
+				BC62A9248BF763344BC1ACD2940CF456 /* HMEmoticonView.xcconfig */,
+				4060110167C012077BEA1D321BAAE3FD /* HMEmoticonView-dummy.m */,
+				56FFAE803E2E85145A02D9C5E1FFFC3F /* HMEmoticonView-Info.plist */,
+				93273E189256134991594079C9F45A82 /* HMEmoticonView-prefix.pch */,
+				BABB09F2B53BE2289F965B591391A571 /* HMEmoticonView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HMEmoticonView";
+			sourceTree = "<group>";
+		};
+		A8437EEF63F686333AAFC8847E65E0EF /* Pods-HMEmoticonView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A786245B7BF24A0708EFB759AAB8E /* Pods-HMEmoticonView_Example.modulemap */,
+				94A997B83F670E8B3B76926556EF5C2A /* Pods-HMEmoticonView_Example-acknowledgements.markdown */,
+				1A318997598CF32A3BAE8DA5FA86D09C /* Pods-HMEmoticonView_Example-acknowledgements.plist */,
+				8A141853BF00FA7459391ABE014D53D8 /* Pods-HMEmoticonView_Example-dummy.m */,
+				F8F4841563C60111F1AC61F25B58CA09 /* Pods-HMEmoticonView_Example-frameworks.sh */,
+				C33C828E1117CA9C30E0E19626E654D2 /* Pods-HMEmoticonView_Example-Info.plist */,
+				AC8BCEA965BAF30010134ECEF672CFF5 /* Pods-HMEmoticonView_Example-umbrella.h */,
+				620466B70DB2DB2FEFBF39AFE0139138 /* Pods-HMEmoticonView_Example.debug.xcconfig */,
+				F5AA88CDAC5E0B62C568EA0AA6951508 /* Pods-HMEmoticonView_Example.release.xcconfig */,
+			);
+			name = "Pods-HMEmoticonView_Example";
+			path = "Target Support Files/Pods-HMEmoticonView_Example";
+			sourceTree = "<group>";
+		};
+		B375213A5E1B9903CA812D7AC0DF0071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F901D1D959B2B7452465C6150C5AA2 /* HMEmoticonView.framework */,
+				01F53544F1597A100045B638B47384D3 /* Pods_HMEmoticonView_Example.framework */,
+				88A991B73F501C50BD7FA258CA3F45E8 /* Pods_HMEmoticonView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDB63490644F00F2B0C7EFE6DE52AE1D /* HMEmoticonView */ = {
+			isa = PBXGroup;
+			children = (
+				E157B4FB650523B60DC27DA77AEF5ECE /* HMEmoticonView.swift */,
+				0E24B52923F20D8E000EB3BA /* HMEmoticonCollectionViewCell.swift */,
+				0E24B52723F20D7D000EB3BA /* HMEmoticonCollectionViewCell.xib */,
+				0E24B52B23F20DF5000EB3BA /* HMAssets.xcassets */,
+				4BFDB225CC7F30B4A5DED92E6AD2551F /* Pod */,
+				7BD29C747E03D840AA36D26F5E66F2C4 /* Support Files */,
+			);
+			name = HMEmoticonView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F64CC57540013266866D433BA61B7B82 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B375213A5E1B9903CA812D7AC0DF0071 /* Products */,
+				73DCF811FFC8135411C3C357EBA96434 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F64CC57540013266866D433BA61B7B82 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDB63490644F00F2B0C7EFE6DE52AE1D /* HMEmoticonView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7AD640D8D913854FA62CE4A79F48D8D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6CD06F4194AC3467154A7D8BF08F17 /* HMEmoticonView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6352CC73B3EEEBC36281F3E4D15E40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20697C552B8CBAC97F7D115A3E943E64 /* Pods-HMEmoticonView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FD348A8ED156ACA6FCE6BDFBBC7F06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BDC7961C6B53B2A9CF72F8BC11EA55 /* Pods-HMEmoticonView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		490B05075BF3EF2D8B8F7952444E2E06 /* Pods-HMEmoticonView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C8EFE9B4AA9C5E58BDCA9539FF6C4C /* Build configuration list for PBXNativeTarget "Pods-HMEmoticonView_Example" */;
+			buildPhases = (
+				AD6352CC73B3EEEBC36281F3E4D15E40 /* Headers */,
+				38BEE5FD80A17FABBF5CC7D467A97279 /* Sources */,
+				BBC0344646DB3A2919FCC4D4B66A92A8 /* Frameworks */,
+				61318A923317BDED6B0FEDFB8E416B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821A0F0CCCA9952289161C95DCCEA98C /* PBXTargetDependency */,
+			);
+			name = "Pods-HMEmoticonView_Example";
+			productName = "Pods-HMEmoticonView_Example";
+			productReference = 01F53544F1597A100045B638B47384D3 /* Pods_HMEmoticonView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5A08BBC306B697FD12F05534F7D3D7C /* HMEmoticonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D65BA2267A6C43B9B8FC46328D8B503 /* Build configuration list for PBXNativeTarget "HMEmoticonView" */;
+			buildPhases = (
+				7AD640D8D913854FA62CE4A79F48D8D3 /* Headers */,
+				0FAA5F2FA2C0BED6B63FEC00BA6B6B1B /* Sources */,
+				8983CBF1B6B2705184693AEB5FEA53BE /* Frameworks */,
+				0DC8677587CD223EF5C8E0C77823C802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMEmoticonView;
+			productName = HMEmoticonView;
+			productReference = 74F901D1D959B2B7452465C6150C5AA2 /* HMEmoticonView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFC49123D10E439D131B2674F8763BFB /* Pods-HMEmoticonView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0C12AF4B6C9B6B7913A36D178087ED /* Build configuration list for PBXNativeTarget "Pods-HMEmoticonView_Tests" */;
+			buildPhases = (
+				E3FD348A8ED156ACA6FCE6BDFBBC7F06 /* Headers */,
+				8A0AC9C1AD4B4CDDE668B656470B87D0 /* Sources */,
+				57869EC6D5DD05BCD25A08C2B237D811 /* Frameworks */,
+				0C5114423E990B0CF19DAD33AA95DEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7845267D93DCDD212AB4B0F08D18A590 /* PBXTargetDependency */,
+			);
+			name = "Pods-HMEmoticonView_Tests";
+			productName = "Pods-HMEmoticonView_Tests";
+			productReference = 88A991B73F501C50BD7FA258CA3F45E8 /* Pods_HMEmoticonView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B375213A5E1B9903CA812D7AC0DF0071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A08BBC306B697FD12F05534F7D3D7C /* HMEmoticonView */,
+				490B05075BF3EF2D8B8F7952444E2E06 /* Pods-HMEmoticonView_Example */,
+				EFC49123D10E439D131B2674F8763BFB /* Pods-HMEmoticonView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C5114423E990B0CF19DAD33AA95DEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC8677587CD223EF5C8E0C77823C802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2B015A23F21DEC00D430A8 /* HMEmoticonCollectionViewCell.xib in Resources */,
+				0E24B52C23F20DF5000EB3BA /* HMAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61318A923317BDED6B0FEDFB8E416B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FAA5F2FA2C0BED6B63FEC00BA6B6B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CB21E4C900B81BC10DBAE58615978C /* HMEmoticonView-dummy.m in Sources */,
+				D61C164CC395AE4B5E9FC5AAB14BAB61 /* HMEmoticonView.swift in Sources */,
+				0E24B52A23F20D8E000EB3BA /* HMEmoticonCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BEE5FD80A17FABBF5CC7D467A97279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85379A479DC46692E8829D2278B633C /* Pods-HMEmoticonView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AC9C1AD4B4CDDE668B656470B87D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB8E0CC5E9B5B738D60FDA607F0C789 /* Pods-HMEmoticonView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7845267D93DCDD212AB4B0F08D18A590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HMEmoticonView_Example";
+			target = 490B05075BF3EF2D8B8F7952444E2E06 /* Pods-HMEmoticonView_Example */;
+			targetProxy = D0A028685DC876CEB947BF2D379265AC /* PBXContainerItemProxy */;
+		};
+		821A0F0CCCA9952289161C95DCCEA98C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMEmoticonView;
+			target = C5A08BBC306B697FD12F05534F7D3D7C /* HMEmoticonView */;
+			targetProxy = 67AE9DD23CDDC7246453786D47CCA98E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0935019B95623202B0C3678C95BAD880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620466B70DB2DB2FEFBF39AFE0139138 /* Pods-HMEmoticonView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMEmoticonView_Example/Pods-HMEmoticonView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMEmoticonView_Example/Pods-HMEmoticonView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		324278B550A29628E3479B936FCD09A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6F99B1AD77991876500B12E6D5E418 /* Pods-HMEmoticonView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMEmoticonView_Tests/Pods-HMEmoticonView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMEmoticonView_Tests/Pods-HMEmoticonView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		745DF4FD8C5F602080487B4144FF87E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC62A9248BF763344BC1ACD2940CF456 /* HMEmoticonView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMEmoticonView/HMEmoticonView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMEmoticonView/HMEmoticonView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMEmoticonView/HMEmoticonView.modulemap";
+				PRODUCT_MODULE_NAME = HMEmoticonView;
+				PRODUCT_NAME = HMEmoticonView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		823E9CECE44E2E5DD7EEBD4FD09556EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5AA88CDAC5E0B62C568EA0AA6951508 /* Pods-HMEmoticonView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMEmoticonView_Example/Pods-HMEmoticonView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMEmoticonView_Example/Pods-HMEmoticonView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B9E792F0710C6EAF04B33438957D9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46627951FACE4BACDBC73CEA2D36C13 /* Pods-HMEmoticonView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMEmoticonView_Tests/Pods-HMEmoticonView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMEmoticonView_Tests/Pods-HMEmoticonView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFC4F683C89A852F314E4AA40D5EC4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC62A9248BF763344BC1ACD2940CF456 /* HMEmoticonView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMEmoticonView/HMEmoticonView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMEmoticonView/HMEmoticonView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMEmoticonView/HMEmoticonView.modulemap";
+				PRODUCT_MODULE_NAME = HMEmoticonView;
+				PRODUCT_NAME = HMEmoticonView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D65BA2267A6C43B9B8FC46328D8B503 /* Build configuration list for PBXNativeTarget "HMEmoticonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC4F683C89A852F314E4AA40D5EC4AE /* Debug */,
+				745DF4FD8C5F602080487B4144FF87E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C8EFE9B4AA9C5E58BDCA9539FF6C4C /* Build configuration list for PBXNativeTarget "Pods-HMEmoticonView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0935019B95623202B0C3678C95BAD880 /* Debug */,
+				823E9CECE44E2E5DD7EEBD4FD09556EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0C12AF4B6C9B6B7913A36D178087ED /* Build configuration list for PBXNativeTarget "Pods-HMEmoticonView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324278B550A29628E3479B936FCD09A4 /* Debug */,
+				8B9E792F0710C6EAF04B33438957D9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

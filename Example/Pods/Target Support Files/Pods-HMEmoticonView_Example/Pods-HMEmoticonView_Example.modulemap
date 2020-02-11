@@ -1,0 +1,6 @@
+framework module Pods_HMEmoticonView_Example {
+  umbrella header "Pods-HMEmoticonView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
