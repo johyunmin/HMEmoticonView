@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HMEmoticonView'
-  s.version          = '0.1.2'
+  s.version          = '1.0.0'
   s.summary          = 'HMEmoticonView.'
   s.description      = 'Keyboard KeyWindow View'
 
