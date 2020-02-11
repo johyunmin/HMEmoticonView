@@ -8,18 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HMEmoticonView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of HMEmoticonView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Keyboard KeyWindow View'
 
   s.homepage         = 'https://github.com/johyunmin/HMEmoticonView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,12 +20,26 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-
-  s.source_files = '*.{h,m,swift}'
-  
-   s.resource_bundles = {
-     'HMEmoticonView' => ['HMAssets/*.png','*.xib']
-   }
+  s.default_subspec = 'Full'
+  s.resource_bundles = {
+    'HMEmoticonView' => ['*.xib']
+  }
+  s.subspec 'Full' do |full|
+      full.source_files = 'Source/*.swift','Source/Default/*'
+      full.resources    = "Source/**/*.xcassets"
+      full.frameworks   = 'UIKit', 'AVFoundation'
+      
+#
+#      full.dependency 'BMPlayer/Core'
+#      full.dependency 'SnapKit', '~> 5.0.0'
+#      full.dependency 'NVActivityIndicatorView', '~> 4.7.0'
+  end
+#
+#  s.source_files = '*.swift'
+#
+#   s.resource_bundles = {
+#     'HMEmoticonView' => ['HMAssets/*.png','*.xib']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
