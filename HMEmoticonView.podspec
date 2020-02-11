@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HMEmoticonView'
   s.version          = '0.1.2'
-  s.summary          = 'A short description of HMEmoticonView.'
+  s.summary          = 'HMEmoticonView.'
   s.description      = 'Keyboard KeyWindow View'
 
   s.homepage         = 'https://github.com/johyunmin/HMEmoticonView'
@@ -20,20 +20,17 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-  s.default_subspec = 'Full'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.resource_bundles = {
     'HMEmoticonView' => ['*.xib']
   }
-  s.subspec 'Full' do |full|
-      full.source_files = 'Source/*.swift','Source/Default/*'
-      full.resources    = "Source/**/*.xcassets"
-      full.frameworks   = 'UIKit', 'AVFoundation'
-      
+  s.source_files = '*.swift'
+  s.resources    = "**/*.xcassets"
+  s.frameworks   = 'UIKit', 'AVFoundation'
 #
 #      full.dependency 'BMPlayer/Core'
 #      full.dependency 'SnapKit', '~> 5.0.0'
 #      full.dependency 'NVActivityIndicatorView', '~> 4.7.0'
-  end
 #
 #  s.source_files = '*.swift'
 #

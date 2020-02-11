@@ -70,7 +70,7 @@
 		C33C828E1117CA9C30E0E19626E654D2 /* Pods-HMEmoticonView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMEmoticonView_Example-Info.plist"; sourceTree = "<group>"; };
 		D1D48A919C4DF0E9E414448B461D6A28 /* Pods-HMEmoticonView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMEmoticonView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6D7423A0570FD1AB1DE032B9E2B2076 /* Pods-HMEmoticonView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMEmoticonView_Tests-dummy.m"; sourceTree = "<group>"; };
-		E157B4FB650523B60DC27DA77AEF5ECE /* HMEmoticonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMEmoticonView.swift; path = HMEmoticonView/Classes/HMEmoticonView.swift; sourceTree = "<group>"; };
+		E157B4FB650523B60DC27DA77AEF5ECE /* HMEmoticonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HMEmoticonView.swift; sourceTree = "<group>"; };
 		E46627951FACE4BACDBC73CEA2D36C13 /* Pods-HMEmoticonView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMEmoticonView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F5AA88CDAC5E0B62C568EA0AA6951508 /* Pods-HMEmoticonView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMEmoticonView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F8F4841563C60111F1AC61F25B58CA09 /* Pods-HMEmoticonView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMEmoticonView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -105,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2B018023F2757000D430A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E24B52B23F20DF5000EB3BA /* HMAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		2D60E347F6FD1E4FC2028070BD2744B3 /* Pods-HMEmoticonView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +203,7 @@
 				E157B4FB650523B60DC27DA77AEF5ECE /* HMEmoticonView.swift */,
 				0E24B52923F20D8E000EB3BA /* HMEmoticonCollectionViewCell.swift */,
 				0E24B52723F20D7D000EB3BA /* HMEmoticonCollectionViewCell.xib */,
-				0E24B52B23F20DF5000EB3BA /* HMAssets.xcassets */,
+				0E2B018023F2757000D430A8 /* Resources */,
 				4BFDB225CC7F30B4A5DED92E6AD2551F /* Pod */,
 				7BD29C747E03D840AA36D26F5E66F2C4 /* Support Files */,
 			);
