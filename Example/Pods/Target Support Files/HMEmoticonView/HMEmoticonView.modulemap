@@ -1,0 +1,6 @@
+framework module HMEmoticonView {
+  umbrella header "HMEmoticonView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HMEmoticonView_Example' do
+  pod 'HMEmoticonView', :path => '../'
+
+  target 'HMEmoticonView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

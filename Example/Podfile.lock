@@ -1,0 +1,16 @@
+PODS:
+  - HMEmoticonView (0.1.0)
+
+DEPENDENCIES:
+  - HMEmoticonView (from `../`)
+
+EXTERNAL SOURCES:
+  HMEmoticonView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HMEmoticonView: 0d1e4d5d400fabdce3aebc2a2e10a8d1a214d765
+
+PODFILE CHECKSUM: 048ebc2ba5ad1745599e62ce2ec451ed6e22c117
+
+COCOAPODS: 1.8.4
