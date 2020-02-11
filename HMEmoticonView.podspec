@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.resource_bundles = {
-    'HMEmoticonView' => ['*.xib']
+    'HMEmoticonView' => ['**/*.xib']
   }
   s.source_files = '*.swift'
   s.resources    = "**/*.xcassets"
