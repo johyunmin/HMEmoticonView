@@ -99,7 +99,6 @@ class ViewController: UIViewController {
      - Throws: `Error` 오브젝트 값이 제대로 안넘어 오는경우 `Error`
      */
     @objc func keyboardWillShow(notification: Notification) {
-        print("키보드보임 부름?")
         if let kbSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
             self.keyBoardSize = kbSize
             UIView.animate(withDuration: 0.5, animations: {
@@ -128,7 +127,6 @@ class ViewController: UIViewController {
      - Throws: `Error` 오브젝트 값이 제대로 안넘어 오는경우 `Error`
      */
     @objc func keyboardWillHide(notification: Notification) {
-        print("키보드숨김 부름?")
         if let kbSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
             self.keyBoardSize = nil
             if self.customView != nil {
