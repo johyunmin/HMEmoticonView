@@ -18,10 +18,11 @@ public class HMEmoticonView : UIView{
         cv.isPagingEnabled = true
         cv.showsVerticalScrollIndicator = false
         cv.showsHorizontalScrollIndicator = false
+        cv.bounces = false
         let bundle = Bundle(for: HMEmoticonView.self)
         let nib = UINib(nibName: "HMEmoticonCollectionViewCell", bundle: bundle)
         cv.register(nib, forCellWithReuseIdentifier: "HMEmoticonCollectionViewCell")
-        cv.backgroundColor = .lightGray
+        cv.backgroundColor = .white
         pageControl.hidesForSinglePage = true
         pageControl.pageIndicatorTintColor = UIColor(hexString: "#bdbdbd")
         pageControl.currentPageIndicatorTintColor = UIColor(hexString: "#7461f2")
@@ -86,12 +87,10 @@ extension HMEmoticonView:UICollectionViewDataSource, UICollectionViewDelegate ,U
     }
     
     open func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print("HMEmoticonView : numberOfItemsInSection")
         return 12
     }
     
     open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        print("HMEmoticonView : cellForItemAt")
         let cell:HMEmoticonCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "HMEmoticonCollectionViewCell", for: indexPath) as! HMEmoticonCollectionViewCell
         cell.emoticonBtn.tag =  (indexPath.section * 10000) + indexPath.item//indexPath.item
         cell.emoticonImg.image = UIImage(named: "\(items[indexPath.item])")
@@ -101,29 +100,24 @@ extension HMEmoticonView:UICollectionViewDataSource, UICollectionViewDelegate ,U
     }
     
     open func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        print("HMEmoticonView : willDisplay")
         self.pageControl.currentPage = indexPath.section
     }
     
     open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        print("HMEmoticonView : sizeForItemAt")
         return CGSize(width: self.collectionView.frame.size.width/4, height: self.collectionView.frame.size.height/3)
     }
     
     open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        print("HMEmoticonView : insetForSectionAt")
         return UIEdgeInsets(top: 0.0, left: 0.0 , bottom: 0.0, right: 0.0)
     }
     
     //위아래 간격
     open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        print("HMEmoticonView : minimumLineSpacingForSectionAt")
         return 0
     }
     
     //옆 라인 간격
     open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        print("HMEmoticonView : minimumInteritemSpacingForSectionAt")
         return 0
     }
 }
