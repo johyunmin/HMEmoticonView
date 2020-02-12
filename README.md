@@ -4,7 +4,7 @@ EmoticonView Library
 
 USE ful 
 
-Pod 'HMEmoticonView'
+pod 'HMEmoticonView'
 
 
 ---

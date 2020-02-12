@@ -108,6 +108,7 @@
 		0E2B018023F2757000D430A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0E24B52723F20D7D000EB3BA /* HMEmoticonCollectionViewCell.xib */,
 				0E24B52B23F20DF5000EB3BA /* HMAssets.xcassets */,
 			);
 			path = Resources;
@@ -202,7 +203,6 @@
 			children = (
 				E157B4FB650523B60DC27DA77AEF5ECE /* HMEmoticonView.swift */,
 				0E24B52923F20D8E000EB3BA /* HMEmoticonCollectionViewCell.swift */,
-				0E24B52723F20D7D000EB3BA /* HMEmoticonCollectionViewCell.xib */,
 				0E2B018023F2757000D430A8 /* Resources */,
 				4BFDB225CC7F30B4A5DED92E6AD2551F /* Pod */,
 				7BD29C747E03D840AA36D26F5E66F2C4 /* Support Files */,

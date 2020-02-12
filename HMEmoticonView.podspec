@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HMEmoticonView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'HMEmoticonView.'
   s.description      = 'Keyboard KeyWindow View'
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     'HMEmoticonView' => ['**/*.xib']
   }
   s.source_files = '*.swift'
-  s.resources    = "**/*.xcassets"
+  s.resources    = ["**/*.xcassets", "**/HMEmoticonCollectionViewCell.xib"]
   s.frameworks   = 'UIKit', 'AVFoundation'
 #
 #      full.dependency 'BMPlayer/Core'
